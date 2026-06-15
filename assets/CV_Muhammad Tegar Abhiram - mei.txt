@@ -1,0 +1,80 @@
+Muhammad Tegar Abhiram
+tegar.abhiram77@gmail.com | + 62 82269076085| Bogor, Indonesia| www.linkedin.com/in/muhammad-tegar-abhiram| https://github.com/garr007
+DESCRIPTION
+
+Information Technology graduate from Universitas Brawijaya specializing in AI Engineering and Data Science. Proven track record designing end-to-end computer vision pipelines (YOLOv8/v11) and building workflows using n8n orchestration. Adept at optimizing LLM prompt architectures, reducing latency, and engineering scalable data pipelines using Python. Experienced in translating complex datasets into production-grade predictive models and interactive analytics dashboards.
+
+EDUCATION
+
+Brawijaya University	Aug 2021 - Aug 2025
+Faculty of Computer Science; Majoring Information Technology	Malang, Indonesia Cumulative GPA: 3.8/4.0
+
+WORK EXPERIENCE
+
+PT. Mitra Graha Integrasi (MIGRASI)	Nov 2025 - Mei 2026
+Data Analyst & AI Engineer Intern	Bogor, Indonesia
+* Engineered a semantic Vector Search system utilizing BERT embeddings and a FAISS vector database, achieving 80% search accuracy
+* Refactored prompt architectures to accelerate system response times, cutting inference latency by 50% across production workflows
+* Optimized LLM prompt architecture and token utilization, reducing API latency by 50% and decreasing prompt character overhead by 79%
+* Designed and deployed an autonomous AI chatbot workflow using n8n, integrating LLM APIs into the company's production platform to automate real-time customer support inquiries
+
+Badan Riset dan Inovasi Nasional (BRIN)	Feb 2024 - Jul 2024
+Computer Vision Research Intern	Bandung, Indonesia
+* Engineered a custom YOLOv8 object detection model for real-time Mouse Movement Detection, achieving 99% accuracy; documented methodologies and co-authored a scientific paper on the research findings
+* Developed and optimized a YOLOv8 instance segmentation model for Tuna Fish Classification to automate quality assessment, achieving 80% accuracy
+* Curated, annotated, and pre-processed a computer vision dataset of 1,500+ images utilizing Roboflow, implementing custom augmentation pipelines to drastically reduce model overfitting
+
+ORGANIZATIONAL EXPERIENCE
+
+Keluarga Besar Mahasiswa Departemen Sistem Informasi FILKOM UB	Jan 2023 - Jan 2024
+General Secretary of Badan Perwakilan Mahasiswa Departemen Sistem Informasi	Malang, Indonesia
+* Spearheaded cross-functional alignment within a 7-member core committee to execute high-impact organizational initiatives smoothly
+* Drafted and instituted 5+ foundational regulations to govern organizational compliance, leading oversight for all major executive activities
+* Directed the planning, budgeting, and performance evaluation of 10+ major community events, successfully driving engagement and operational success
+
+Faculty of Computer Science (FILKOM) University of Brawijaya	Aug 2023 - Dec 2023
+Algorithm and Data Structure Laboratory Asisstant	Malang, Indonesia
+* Mentored 42 students in core computer science concepts, delivering technical code walk-throughs on advanced data structures, sorting algorithms, and time-complexity optimization
+* Evaluated and code-reviewed student programming assignments, providing constructive debugging feedback and grading implementations based on efficiency and algorithmic correctness
+
+House of Technology FILKOM UB	May 2022- Nov 2022
+Head of IT Paper & Poster Divsion	Malang, Indonesia
+* Led a 5-member executive team in planning and executing the annual IT Paper and Poster Exhibition
+* Attracting 10+ participants and showcasing innovative tech projects from students across the university
+* Managed the final stage event, coordinating activities for 5 finalists to ensure a smooth and successful event
+
+PROJECTS
+
+AI Automation Project: Mira Assistant - Enterprise RAG Workflow Optimization	Mar 2026 - May 2026 Developed an end-to-end autonomous customer support agent and dynamic knowledge-base pipeline using n8n orchestration and JavaScript logic		Bogor, Indonesia
+? Engineered an automated data ingestion pipeline using n8n and custom JavaScript, scheduling periodic document downloads from cloud storage via automated triggers
+? Integrated a secure CMS API Sync Pipeline with admin authentication, enabling automated synchronization of new enterprise knowledge into the core RAG ingestion system
+? Designed a custom text-processing pipeline that chunks documents at chunk_size=1000 and generates embeddings using
+OpenAI's text-embedding-3-small for storage in a Pinecone Vector Store
+? Built an AI Agent using GPT-4o-mini with a Window Buffer Memory and strict conditional routing to ensure accurate, secure, and hallucination-free contextual responses
+Computer Vision Project: Mouse Movement Detection	Feb 2024 - Jun 2024
+Developed a Computer Vision application for detecting and tracking mouse movement
+using YOLOv11	Malang, Indonesia
+? Curated and pre-processed a specialized dataset of 300+ images via Roboflow, training a custom YOLOv11 object detection model to achieve a 99% tracking accuracy rate
+? Engineered an interactive Graphical User Interface (GUI) to visualize real-time bounding boxes and inference tracking results seamlessly for end-users.
+Analyzing Customer Churn Using Tableau: Databel Telecom Company by DataCamp	Nov 2023 - Dec 2023
+Data Analyst and Visualization using Tableau	Malang, Indonesia
+? Conducted exploratory data analysis on telecom customer data, engineering custom calculated fields and defining strategic KPIs to quantify driver metrics behind customer churn
+? Developed an interactive suite of 4 Tableau dashboards and a data story, delivering actionable insights to identify high- risk customer segments and optimize retention strategies
+SKILLS AND CERTIFICATIONS
+
+HARD SKILLS
+* Programming Languages: Python (Advanced), R (Intermediate), SQL
+* AI & Computer Vision: Ultralytics YOLO (v8/v11), OpenCV, TensorFlow, Neural Networks, SVM
+* Data Engineering: ETL (Pentaho, Talend), Database Management Systems (DBMS), MySQL
+* Analytics & BI: Data Analysis & Visualization, Tableau, Streamlit, Exploratory Data Analysis (EDA)
+* Workflows & MLOps: n8n Orchestration, Image Curation & Pre-processing (Roboflow), Graphical User Interfaces (GUIs)
+Certifications & Training:
+? DBS Foundation Coding Camp 2024 (Dicoding) - Machine Learning Developer. (see certificate)
+? Indosat Ooredoo Hutchison Digital Camp 2024 (Dicoding) - Data Scientist. (see certificate)
+? Analyzing Data in Tableau;Creating Dashboards in Tableau; Case Study: Analyzing Customer Churn in Tableau by DataCamp. (see certificate)
+? Statistics using R for Data Science;Data Preparation in Data Science Using R; Data Visualization in Data Science using R; Advanced Data Visualization with ggplot2 using R by DQLab. (see certificate)
+? SQL (Advanced) Certificate; Python (Basic) Certificate by HackerRank. (see certificate)
+? EF SET English Certificate 83/100 (C2 Proficient). (see certificate).
+Languages:
+? Indonesia (Native)
+? English (Fluent)
