@@ -1,21 +1,31 @@
-# Muhammad Tegar Abhiram — Portfolio
+# Muhammad Tegar Abhiram - Portfolio
 
-Warm editorial portfolio built with Next.js, TypeScript, Tailwind CSS, and
-Framer Motion.
+Portfolio built with Next.js, TypeScript, and Framer Motion.
+
+Live site: [garr007.github.io/portfolio-website](https://garr007.github.io/portfolio-website/)
 
 ## Development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-## Production
+## Validation
 
 ```bash
 npm run lint
 npm run build
 ```
 
-The project exports a static site to `out/` and includes a GitHub Pages
-deployment workflow.
+## GitHub Pages Deployment
+
+The workflow in `.github/workflows/deploy.yml` automatically:
+
+1. Installs dependencies with `npm ci`.
+2. Builds the Next.js static export into `out/`.
+3. Uploads the generated site as a GitHub Pages artifact.
+4. Deploys the artifact after every push to `main`.
+
+In the GitHub repository, open **Settings > Pages** and set **Source** to
+**GitHub Actions**. Then push the project to the `main` branch.

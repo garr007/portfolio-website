@@ -6,8 +6,17 @@ import "@fontsource/plus-jakarta-sans/500.css";
 import "@fontsource/plus-jakarta-sans/600.css";
 import "./globals.css";
 
+const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const basePath =
+  process.env.GITHUB_ACTIONS === "true" &&
+  repositoryName &&
+  !repositoryName.endsWith(".github.io")
+    ? `/${repositoryName}`
+    : "";
+const siteUrl = `https://garr007.github.io${basePath}`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://garr007.github.io"),
+  metadataBase: new URL(siteUrl),
   title: "Muhammad Tegar Abhiram | Data Science & AI Engineer",
   description:
     "Portfolio website showcasing AI, Data Science, and Computer Vision projects. Specialized in TensorFlow, YOLO, and machine learning.",
@@ -26,14 +35,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muhammad Tegar Abhiram | Data Science & AI Engineer",
     description: "Building intelligent systems from data to deployment.",
-    url: "https://github.com/garr007",
+    url: siteUrl,
     siteName: "Tegar Portfolio",
     images: [
       {
-        url: "/assets/desktop-view.png",
-        width: 1200,
-        height: 630,
-        alt: "Muhammad Tegar Abhiram Portfolio Preview",
+        url: `${siteUrl}/assets/profile/tegar.png`,
+        width: 500,
+        height: 500,
+        alt: "Muhammad Tegar Abhiram",
       },
     ],
     locale: "en_US",
